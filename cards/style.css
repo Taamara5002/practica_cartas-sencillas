@@ -1,0 +1,51 @@
+body{
+    margin: 0;   
+}
+
+.content_ulquiorra, .content_stark, .content_harribel, .content_grimmjow{
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 0 #000e;
+}
+
+/*PERSONALIZACION DE COLORES DE CADA TARJETA DEPENDIENDO DEL PERSONAJE*/
+.content_ulquiorra{
+    background: linear-gradient(#000d, #172);
+}
+
+.content_stark{
+    background: linear-gradient(#000d, #1212ce);
+}
+
+.content_harribel{
+    background: linear-gradient(#000d, #eeb922);
+}
+
+.content_grimmjow{
+    background: linear-gradient(#000d, #2299bb);
+}
+/*------------------------------------------------------*/
+
+.content_ulquiorra h1, .content_stark h1, .content_harribel h1, .content_grimmjow h1{
+    color: #e4e0e0;
+}
+
+.content_ulquiorra img, .content_stark img, .content_harribel img, .content_grimmjow img{
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    box-shadow: 0 0 10px 0 #fff6;
+}
+
+.content_ulquiorra p, .content_stark p, .content_harribel p, .content_grimmjow p{
+    margin-top: 0;
+    margin: 20px;
+    text-align: justify;
+    color: #fff;
+}
